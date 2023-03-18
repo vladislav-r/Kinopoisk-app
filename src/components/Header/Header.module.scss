@@ -1,0 +1,65 @@
+@import '../../vars';
+
+.header {
+	width: 100%;
+	position: absolute;
+	z-index: $high-zi;
+}
+
+.headerContent {
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+}
+.headerGradient {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	width: 100%;
+	height: 8rem;
+	pointer-events: none;
+	opacity: 1;
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.6),
+		rgba(0, 0, 0, 0.595) 6.67%,
+		rgba(0, 0, 0, 0.579) 13.33%,
+		rgba(0, 0, 0, 0.551) 20%,
+		rgba(0, 0, 0, 0.512) 26.67%,
+		rgba(0, 0, 0, 0.461) 33.33%,
+		rgba(0, 0, 0, 0.401) 40%,
+		rgba(0, 0, 0, 0.334) 46.67%,
+		rgba(0, 0, 0, 0.266) 53.33%,
+		rgba(0, 0, 0, 0.199) 60%,
+		rgba(0, 0, 0, 0.139) 66.67%,
+		rgba(0, 0, 0, 0.088) 73.33%,
+		rgba(0, 0, 0, 0.049) 80%,
+		rgba(0, 0, 0, 0.021) 86.67%,
+		rgba(0, 0, 0, 0.005) 93.33%,
+		transparent
+	);
+
+	transition: background 0.3s ease;
+}
+.headerInner {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 10px;
+	z-index: 3;
+
+	> .headerLeft,
+	.headerRight {
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		flex: 0 1 auto;
+	}
+	> .headerLeft {
+		position: relative;
+
+		> .headerLogo {
+			display: flex;
+		}
+	}
+}

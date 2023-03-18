@@ -1,0 +1,26 @@
+@import '../../vars';
+.nav {
+	display: flex;
+	justify-content: center;
+	flex: 1 1 auto;
+	color: inherit;
+	> ul {
+		display: flex;
+		> li {
+			padding: 10px;
+			&:hover > a {
+				color: $primary;
+			}
+			> a {
+				transition: color 0.4s ease;
+				font-weight: 700;
+				font-size: 18px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 700px) {
+	.nav {
+		display: none;
+	}
+}

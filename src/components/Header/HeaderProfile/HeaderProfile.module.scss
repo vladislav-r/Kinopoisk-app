@@ -1,0 +1,25 @@
+.profile {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	z-index: inherit;
+	.user {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 36px;
+		height: 36px;
+		background-color: #a0c3ff;
+		border-radius: 50%;
+		overflow: hidden;
+		z-index: 100;
+		i {
+			position: absolute;
+			bottom: -5px;
+			font-size: 36px;
+			z-index: 101;
+			color: #4374e0;
+		}
+	}
+}
