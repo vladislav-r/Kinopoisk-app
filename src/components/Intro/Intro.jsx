@@ -15,7 +15,7 @@ function Intro({ movie }) {
 			style={{ backgroundImage: `url(${JSON.stringify(movie.img)})` }}>
 			<div className={styles.introInner}>
 				<div className={styles.introLogo}>
-					<Link className={styles.imgWrapper} to={`/films/${movie.id}`}>
+					<div className={styles.imgWrapper} to={`/films/${movie.id}`}>
 						<div
 							className={styles.img}
 							style={{
@@ -23,7 +23,7 @@ function Intro({ movie }) {
 									movie.localLogo ? JSON.stringify(movie.localLogo) : JSON.stringify(movie.logo)
 								})`,
 							}}></div>
-					</Link>
+					</div>
 					<div className={styles.informationBlock}>
 						<div className={styles.info}>
 							<span>{movie.year}</span>

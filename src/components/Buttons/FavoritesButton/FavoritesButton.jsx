@@ -11,9 +11,9 @@ function FavoritesButton({ callback }) {
 			}}
 			className={styles.button}>
 			{isChecked ? (
-				<i class='bx bx-bookmark'></i>
-			) : (
 				<i class='bx bxs-bookmark' style={{ color: '#da5c1e' }}></i>
+			) : (
+				<i class='bx bx-bookmark'></i>
 			)}
 		</button>
 	);

@@ -1,12 +1,15 @@
 import Header from './components/Header/Header';
-import Intro from './components/Intro/Intro';
+import Home from './pages/home/Home';
 import FILMS from './FILMS.json';
 
 const App = () => {
 	return (
 		<>
 			<Header />
-			<Intro movie={FILMS[Math.floor(Math.random() * 2)]} />
+			<div className='content'>
+				<Home films={FILMS} />
+			</div>
+			{/* <video src='https://youtu.be/3QPeynQ_sio' style={{ width: 560, height: 400 }} controls /> */}
 		</>
 	);
 };
