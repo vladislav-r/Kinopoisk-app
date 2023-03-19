@@ -1,73 +1,130 @@
 @import '../../vars';
+
 .intro {
 	position: absolute;
 	top: 0;
 	z-index: 3;
 	width: 100%;
-	height: 550px;
-	background-image: url('https://people.com/thmb/Gc2bEAXZusNxPVlhuK8IZRdgQX8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1159x347:1161x349)/avatar-2-way-of-the-water-trailer-110222-3-7fcc8ab436204e46ab9ab7bb007b5fbe.jpg');
+	height: 900px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	-webkit-box-shadow: inset 0 0 900px #000, inset 0 0 900px #000, inset 0 0 900px #000;
-	-moz-box-box-shadow: inset 0 0 900px #000, inset 0 0 900px #000, inset 0 0 900px #000;
+	-webkit-box-shadow: inset 0 0 0 #000, inset 0 0 900px #000, inset 0 0 900px #000;
+	-moz-box-box-shadow: inset 0 0 0 #000, inset 0 0 900px #000, inset 0 0 900px #000;
 	box-shadow: inset 0 0 0 #000, inset 0 0 900px #000, inset 0 0 900px #000;
 
 	.introInner {
 		height: 100%;
 		width: 100%;
-		display: flex;
-		align-items: end;
+		max-width: 1440px;
+		margin: 0 auto;
+		// position: relative;
 		.introLogo {
-			max-height: 600px;
-			height: 500px;
-			width: 500px;
-			max-width: 800px;
+			padding: 0 0 0 3rem;
+			// position: absolute;
+			height: 100%;
+			width: 60%;
+			max-width: 650px;
 			display: flex;
 			flex-direction: column;
+
 			align-items: center;
 			justify-content: center;
-			position: absolute;
-			top: 45%;
-			left: 25%;
-			transform: translate(-50%, -50%);
+
 			.img {
 				width: 100%;
-				height: 50%;
-				background-image: url('https://1000logos.net/wp-content/uploads/2022/11/Avatar-Logo-2022.png');
-				background-size: cover;
+				height: 100%;
+				// background-image: url('https://1000logos.net/wp-content/uploads/2022/11/Avatar-Logo-2022.png');
+				background-size: contain;
 				background-position: center;
 				background-repeat: no-repeat;
 				z-index: 1;
 			}
-			.info {
-				display: flex;
-				justify-content: start;
-				align-items: center;
+			.informationBlock {
 				width: 100%;
-				padding-left: 10%;
-				margin-top: -30px;
-				color: rgba(255, 255, 255, 0.6);
-				font-weight: 500;
 
-				span {
+				margin-top: -70px;
+				color: rgba(255, 255, 255, 0.6);
+				font-weight: 400;
+
+				> .info > span {
 					margin-right: 10px;
+					font-size: 16px;
 				}
 			}
 			.description {
-				font-size: 22px;
+				font-size: 26px;
+				line-height: 1.3;
+				font-family: inherit;
 				font-weight: 400;
 				color: rgba(255, 255, 255, 0.8);
-				text-align: center;
+				text-align: justify;
+				opacity: 1;
 			}
 		}
 
 		.buttonsBlock {
-			position: absolute;
-			max-width: 700px;
+			margin-top: 50px;
 			width: 100%;
-			bottom: 60px;
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+}
+
+.imgWrapper {
+	width: 100%;
+	height: 100%;
+	max-height: 400px;
+}
+
+@media screen and (max-width: 1440px) {
+	.intro {
+		height: 550px;
+		.introInner {
+			max-width: 1230px;
+			.introLogo {
+				max-width: 500px;
+				.imgWrapper {
+					max-height: 250px;
+				}
+				.informationBlock {
+					margin-top: -30px;
+					> .info > span {
+						font-size: 16px;
+					}
+					.description {
+						font-size: 18px;
+						line-height: 1.3;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.intro {
+		-webkit-box-shadow: inset 0 0 0 #000, inset 0 0 400px #000, inset 0 0 400px #000;
+		-moz-box-box-shadow: inset 0 0 0 #000, inset 0 0 400px #000, inset 0 0 400px #000;
+		box-shadow: inset 0 0 0 #000, inset 0 0 400px #000, inset 0 0 400px #000;
+		max-height: 500px;
+		.introInner > .introLogo {
+			max-width: 400px;
+			.imgWrapper {
+				max-height: 180px;
+			}
+			padding: 0 2rem;
+			width: 100%;
+			.informationBlock {
+				.info span {
+					font-size: 14px;
+				}
+				.description {
+					font-size: 16px;
+				}
+			}
 		}
 	}
 }

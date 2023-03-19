@@ -1,11 +1,12 @@
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
+import FILMS from './FILMS.json';
 
 const App = () => {
 	return (
 		<>
 			<Header />
-			<Intro />
+			<Intro movie={FILMS[Math.floor(Math.random() * 2)]} />
 		</>
 	);
 };
