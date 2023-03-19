@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"name": "Аватар: Путь Воды",
+		"year": "2023",
+		"genre": "фантастика",
+		"director": "Джеймс Кэмерон",
+		"logo": "https://1000logos.net/wp-content/uploads/2022/11/Avatar-Logo-2022.png",
+		"localLogo": "src/assets/img/Avatar-Logo-2022.png",
+		"img": "https://people.com/thmb/Gc2bEAXZusNxPVlhuK8IZRdgQX8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1159x347:1161x349)/avatar-2-way-of-the-water-trailer-110222-3-7fcc8ab436204e46ab9ab7bb007b5fbe.jpg",
+		"localImg": "",
+		"description": "После принятия образа аватара солдат Джейк Салли становится предводителем народа на`ви",
+		"duration": "02:55",
+		"age": "14+"
+	},
+	{
+		"id": 2,
+		"name": "Джон Уик 4",
+		"year": "2023",
+		"genre": "боевик, триллер",
+		"director": "Чад Стахелски",
+		"logo": "https://avatars.mds.yandex.net/get-ott/2385704/2a0000016ef3be238f2eba6239b15e22089a/960x540",
+		"localLogo": "",
+		"img": "https://s0.rbk.ru/v6_top_pics/media/img/9/47/756766311459479.webp",
+		"localImg": "",
+		"description": "Джон Уик находит способ одержать победу над Правлением Кланов. Однако, прежде чем он сможет заслужить свою свободу, ему предстоит сразиться с новым врагом и его могущественными союзниками",
+		"duration": "02:49",
+		"age": "18+"
+	}
+]
