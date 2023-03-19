@@ -62,7 +62,7 @@ function DropdownNav({ setIsDropdownActive }) {
 						<li key={item.id}>
 							<Link className={location === item.href ? 'active' : ''} to={item.href}>
 								<div className={location === item.href ? 'active' : ''}>
-									<i class={`bx bx-${item.icon}`}></i>
+									<i className={`bx bx-${item.icon}`}></i>
 								</div>
 								<span>{item.title}</span>
 							</Link>
