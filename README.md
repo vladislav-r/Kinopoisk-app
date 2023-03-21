@@ -5,12 +5,12 @@
 
 <h2>Random generate movie on the intro block</h2>
 ![image](https://user-images.githubusercontent.com/59182850/226585855-9bda9976-c446-430d-a5e7-2699bd3fc78c.png)
-<h4>Recomendation slider</h4>
+<h4>Recommendation slider</h4>
 
 <h2>Page navigation dropdown</h2>
 ![image](https://user-images.githubusercontent.com/59182850/226589765-e1b0bc6e-17e6-4106-aac5-ab6c07bf9d66.png)
 
-<h2>Recomended movies page</h2>
+<h2>Recommended movies page</h2>
 ![image](https://user-images.githubusercontent.com/59182850/226591117-83d03ff5-6b98-4444-83b8-85c7818a704d.png)
 
 Work filtering and searching. Sorting will appear later
