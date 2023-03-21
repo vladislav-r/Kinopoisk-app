@@ -5,35 +5,31 @@
 	width: 100%;
 	height: 900px;
 	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
-
 	-webkit-box-shadow: inset 0 0 0 #000, inset 0 0 900px #000, inset 0 0 900px #000;
 	-moz-box-box-shadow: inset 0 0 0 #000, inset 0 0 900px #000, inset 0 0 900px #000;
 	box-shadow: inset 0 0 0 #000, inset 0 0 900px #000, inset 0 0 900px #000;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	.introInner {
 		height: 100%;
 		width: 100%;
 		max-width: 1440px;
 		margin: 0 auto;
-		// position: relative;
 		.introLogo {
-			padding: 0 0 0 3rem;
-			// position: absolute;
 			height: 100%;
 			width: 60%;
 			max-width: 650px;
+			padding: 0 0 0 3rem;
+
 			display: flex;
 			flex-direction: column;
-
 			align-items: center;
-			justify-content: center;
+			justify-content: end;
 
 			.img {
 				width: 100%;
 				height: 100%;
-				// background-image: url('https://1000logos.net/wp-content/uploads/2022/11/Avatar-Logo-2022.png');
 				background-size: contain;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -41,8 +37,8 @@
 			}
 			.informationBlock {
 				width: 100%;
-
 				margin-top: -70px;
+
 				color: rgba(255, 255, 255, 0.6);
 				font-weight: 400;
 
@@ -52,21 +48,79 @@
 				}
 			}
 			.description {
-				font-size: 26px;
-				line-height: 1.3;
 				font-family: inherit;
 				font-weight: 400;
-				color: rgba(255, 255, 255, 0.8);
+				font-size: 26px;
+				line-height: 1.3;
+				color: rgba(255, 255, 255, 0.9);
 				text-align: justify;
 				opacity: 1;
 			}
 		}
 
 		.buttonsBlock {
-			margin-top: 50px;
+			height: 100px;
+			margin-top: 30px;
 			width: 100%;
 			display: flex;
 			justify-content: space-around;
+
+			> button {
+				border: 0;
+				height: 50px;
+				width: 50px;
+				margin-right: 8px;
+				flex: 1;
+				font-weight: 600;
+				font-size: 15px;
+				&:hover {
+					background: lighten($color: $bg-thirdly, $amount: 5);
+				}
+			}
+
+			.aboutMovieBtn,
+			.goWatchingBtn {
+				padding: 10px 20px;
+				border-radius: 30px;
+				display: inline-block;
+				a {
+					color: $primary;
+				}
+			}
+
+			.goWatchingBtn {
+				flex: 4;
+				background-image: linear-gradient($orange-gradient);
+				a {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					i {
+						font-size: 20px;
+					}
+				}
+				&:hover {
+					transform: scale(1.07);
+					background-image: linear-gradient($orange-gradient);
+				}
+			}
+			.aboutMovieBtn {
+				flex: 2;
+				background-color: $bg-secondary;
+				a {
+					text-align: center;
+				}
+			}
+
+			.dotsMoreBtn {
+				padding: 0 4px;
+				background-color: $bg-secondary;
+				border-radius: 50%;
+				i {
+					color: $primary;
+					font-size: 20px;
+				}
+			}
 		}
 	}
 }
@@ -94,7 +148,7 @@
 					}
 					.description {
 						font-size: 18px;
-						line-height: 1.3;
+						line-height: 1.4;
 					}
 				}
 			}

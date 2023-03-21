@@ -1,0 +1,16 @@
+.input {
+	width: 200px;
+	padding: 10px 15px;
+	line-height: 1;
+	font-size: 16px;
+	font-family: inherit;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	background-color: transparent;
+	color: #fff;
+
+	transition: all 0.2s ease;
+	&:focus {
+		width: 230px;
+	}
+}

@@ -41,11 +41,9 @@ function Navigation() {
 		<nav className={styles.nav}>
 			<ul className={styles.navlist}>
 				{nav.map(item => (
-					<li key={item.id} className={styles.navItem}>
-						<Link className={location === item.href ? 'active' : ''} to={item.href}>
-							{item.title}
-						</Link>
-					</li>
+					<Link key={item.id} className={location === item.href ? 'active' : ''} to={item.href}>
+						<li className={styles.navItem}>{item.title}</li>
+					</Link>
 				))}
 			</ul>
 		</nav>

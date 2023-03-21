@@ -4,10 +4,12 @@ import Navigation from '../Navigation/Navigation';
 import HeaderProfile from './HeaderProfile/HeaderProfile';
 import styles from './Header.module.scss';
 import DropdownNav from '../DropdownNav/DropdownNav';
+
 import { useState } from 'react';
 
 const Header = () => {
 	const [isDropdownActive, setIsDropdownActive] = useState(false);
+
 	return (
 		<div className={styles.header}>
 			<div className={styles.headerGradient}></div>
@@ -29,6 +31,7 @@ const Header = () => {
 							</div>
 						</div>
 						<Navigation />
+
 						<div className={styles.headerRight}>
 							<HeaderProfile />
 						</div>

@@ -1,16 +1,10 @@
 @import '../../../vars';
 .button {
-	width: 3.75rem;
-	height: 3.75rem;
+	padding: 0 4px;
 	background-color: $bg-secondary;
 	border-radius: 50%;
-
-	// &:hover {
-	// 	background-color: lighten($color: $bg-secondary, $amount: 2);
-	// }
-
 	i {
 		color: $primary;
-		font-size: 22px;
+		font-size: 20px;
 	}
 }

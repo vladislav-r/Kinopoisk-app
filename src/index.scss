@@ -26,6 +26,8 @@ body {
 	margin: 0;
 	min-width: 320px;
 	min-height: 100vh;
+	height: 3000px;
+	background-color: $primary;
 	background-color: $bg-primary;
 	color: $primary;
 }
@@ -39,7 +41,7 @@ body {
 
 @media screen and (max-width: 1440px) {
 	.container {
-		max-width: 1230px;
+		max-width: 1250px;
 	}
 }
 
@@ -47,11 +49,15 @@ a {
 	color: $secondary;
 	text-decoration: none;
 	cursor: pointer;
+	transition: color 0.2s ease;
 
 	&.active {
 		color: $primary;
 		border-bottom: 2px solid $orange;
 		padding-bottom: 7px;
+	}
+	&:hover {
+		color: $primary;
 	}
 }
 
@@ -71,4 +77,13 @@ button {
 	&:hover {
 		transform: scale(1.05);
 	}
+}
+
+.movieGrid {
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+
+	grid-column-gap: 5px;
+	grid-row-gap: 15px;
 }

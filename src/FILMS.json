@@ -1,22 +1,23 @@
 [
 	{
-		"id": 1,
+		"id": "1",
 		"name": "Аватар: Путь Воды",
 		"year": "2023",
 		"genre": "фантастика",
 		"director": "Джеймс Кэмерон",
 		"logo": "https://1000logos.net/wp-content/uploads/2022/11/Avatar-Logo-2022.png",
 		"localLogo": "/src/assets/img/Avatar-Logo-2022.png",
-		"img": "https://clck.ru/33oaRG",
+		"img": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/f98f3da9-50a4-49b5-a1a8-a42bae73e416/1920x",
 		"localImg": "",
 		"description": "После принятия образа аватара солдат Джейк Салли становится предводителем народа на'ви и берет на себя миссию по защите новых друзей от корыстных бизнесменов с Земли.",
 		"duration": "2ч 50мин",
 		"age": "14+",
-		"video": "",
-		"rating": "8.5"
+		"videoUrl": "https://www.youtube.com/watch?v=yKrzARVuePw",
+		"rating": "8.5",
+		"type": "фильм"
 	},
 	{
-		"id": 2,
+		"id": "2",
 		"name": "Джон Уик 4",
 		"year": "2023",
 		"genre": "боевик, триллер",
@@ -28,27 +29,29 @@
 		"description": "Джон Уик находит способ одержать победу над Правлением Кланов. Однако, прежде чем он сможет заслужить свою свободу, ему предстоит сразиться с новым врагом и его могущественными союзниками",
 		"duration": "2ч 49мин",
 		"age": "18+",
-		"video": "",
-		"rating": "10"
+		"videoUrl": "https://www.youtube.com/watch?v=xAviSwSSHMY",
+		"rating": "10",
+		"type": "фильм"
 	},
 	{
-		"id": 3,
+		"id": "3",
 		"name": "Человек-паук: Нет пути домой",
 		"year": "2021",
 		"genre": "боевик, приключения",
 		"director": "Джон Уоттс",
 		"logo": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017f2b64f82f9dfbef3a3cee0ed892/960x540",
 		"localLogo": "",
-		"img": "https://www.soyuz.ru/public/uploads/files/2/7475780/2021112520475049c47d7e3f.jpg",
+		"img": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/12/spider-man-no-way-home-social-feature.jpg",
 		"localImg": "",
 		"description": "Жизнь и репутация Питера Паркера оказываются под угрозой, поскольку Мистерио раскрыл всему миру тайну личности Человека-паука",
 		"duration": "2ч 28мин",
 		"age": "12+",
-		"video": "",
-		"rating": "9"
+		"videoUrl": "https://www.youtube.com/watch?v=hlANal2_tsc",
+		"rating": "9",
+		"type": "фильм"
 	},
 	{
-		"id": 4,
+		"id": "4",
 		"name": "Офис",
 		"year": "2005",
 		"genre": "комедия",
@@ -60,11 +63,12 @@
 		"description": "Сериал о трудовых буднях небольшого регионального офиса крупной компании, обитатели которого целыми днями должны терпеть закидоны своего непутевого босса.",
 		"duration": "22мин",
 		"age": "16+",
-		"video": "",
-		"rating": "8"
+		"videoUrl": "https://www.youtube.com/watch?v=ga7I2J12E7Q",
+		"rating": "8",
+		"type": "сериал"
 	},
 	{
-		"id": 5,
+		"id": "5",
 		"name": "Король и Шут",
 		"year": "2021",
 		"genre": "боевик, приключения",
@@ -76,7 +80,25 @@
 		"description": "Горшок, Князь и Шут — герои панк-сказки, в которой студенты реставрационного училища стали одной из главных рок-групп страны, собрали «Юбилейный», покорили Москву",
 		"duration": "40мин",
 		"age": "18+",
-		"video": "",
-		"rating": "8.3"
+		"videoUrl": "https://www.youtube.com/watch?v=XZqRYNbdB0g",
+		"rating": "8.3",
+		"type": "сериал"
+	},
+	{
+		"id": "6",
+		"name": "Бэтмен",
+		"year": "2022",
+		"genre": "детектив, криминал, драма, боевик",
+		"director": "Мэтт Ривз",
+		"logo": "https://www.backstageol.com/wp-content/uploads/2020/08/the_batman__2021__logo_png__by_mintmovi3_de3mn3j-fullview.png",
+		"localLogo": "",
+		"img": "https://4kwallpapers.com/images/wallpapers/the-batman-2022-movies-selina-kyle-catwoman-batman-zoe-3440x1440-7446.jpg",
+		"localImg": "",
+		"description": "После двух лет поисков правосудия на улицах Готэма Бэтмен становится для горожан олицетворением беспощадного возмездия",
+		"duration": "2ч 56мин",
+		"age": "16+",
+		"videoUrl": "https://www.youtube.com/watch?v=hlANal2_tsc",
+		"rating": "9.5",
+		"type": "фильм"
 	}
 ]
