@@ -4,7 +4,7 @@
 <h4>Copy of the <a target="blank" href="https://hd.kinopoisk.ru">kinopoisk</a></h4>
 
 <h2>Random generate movie on the intro block</h2>
-<h2>Recommendation slider</h4>
+<h3>Recommendation slider</h3>
 
 
 <img src="https://user-images.githubusercontent.com/59182850/226594681-5c8b5198-5dc3-4281-92d8-84ec353a3f06.png"/>
