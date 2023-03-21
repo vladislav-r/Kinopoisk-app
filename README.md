@@ -1,10 +1,14 @@
-# Kinopoisk-app
+<h1 align='center'>Frontend for Movies App <span> v.1.01</span></h1>
+<h4 align='center'>Copy of the <a target="blank" href="https://hd.kinopoisk.ru">kinopoisk</a></h4>
 
-<h1>Frontend for Movies App <span> v.1.01</span></h1>
-<h4>Copy of the <a target="blank" href="https://hd.kinopoisk.ru">kinopoisk</a></h4>
+<h2>📝 Note: </h2>
+<h4>All code writing myself. It's not a copy/paste code of an existing resource!</h4>
 
-<h2>Random generate movie on the intro block</h2>
+
+
+<h2 style="margin-top: 150px">Random generate movie on the intro block</h2>
 <h3>Recommendation slider</h3>
+
 
 
 <img src="https://user-images.githubusercontent.com/59182850/226594681-5c8b5198-5dc3-4281-92d8-84ec353a3f06.png"/>
@@ -30,8 +34,6 @@
 
 <img src="https://user-images.githubusercontent.com/59182850/226594198-9cbaf8ea-6f7e-4ef7-8bea-e69cd93ddefc.png"/>
 
-<h2>📝 Note: </h2>
-<h3>All code writing myself. It's not a copy/paste code of an existing resource</h3>
 
 
 
